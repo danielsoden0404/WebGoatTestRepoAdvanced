@@ -26,7 +26,7 @@ jobs:
           - language: java-kotlin
             build-mode: manual
           - language: javascript-typescript
-            build-mode: automatic
+            build-mode: autobuild
 
     steps:
     - name: Checkout repository
